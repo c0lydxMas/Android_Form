@@ -47,7 +47,7 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="205dp"
+        android:layout_width="240dp"
         android:layout_height="32dp"
         android:layout_marginTop="172dp"
         android:orientation="horizontal"
@@ -121,7 +121,7 @@
         android:layout_marginTop="310dp"
         android:ems="10"
         android:hint="So dien thoai"
-        android:inputType="number"
+        android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
@@ -134,7 +134,7 @@
         android:layout_marginTop="400dp"
         android:ems="10"
         android:hint="Email"
-        android:inputType="phone"
+        android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toStartOf="parent"
@@ -159,12 +159,11 @@
         android:id="@+id/hobby"
         android:layout_width="83dp"
         android:layout_height="32dp"
-        android:layout_marginLeft="4dp"
         android:layout_marginTop="560dp"
         android:text="So thich"
         android:textSize="19sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintHorizontal_bias="0.128"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -173,12 +172,11 @@
         android:id="@+id/hobby_sport"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="120dp"
         android:layout_marginTop="600dp"
         android:text="The thao"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -186,12 +184,11 @@
         android:id="@+id/hobby_travel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="240dp"
         android:layout_marginTop="600dp"
         android:text="Du lich"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -215,8 +212,8 @@
         android:layout_marginLeft="40dp"
         android:layout_marginTop="670dp"
         android:backgroundTint="@color/black"
-        android:onClick="submitHandler"
         android:text="SUBMIT"
+        android:onClick="submitHandler"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.425"
         app:layout_constraintStart_toStartOf="parent"
