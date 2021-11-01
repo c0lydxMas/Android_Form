@@ -59,18 +59,18 @@
 
         <RadioButton
             android:id="@+id/radioButton"
-            android:layout_width="45dp"
+            android:layout_width="80dp"
             android:layout_height="33dp"
-            android:text="M"
+            android:text="Nam"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <RadioButton
             android:id="@+id/female"
-            android:layout_width="45dp"
+            android:layout_width="60dp"
             android:layout_height="33dp"
-            android:text="F"
+            android:text="Nu"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.655"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
             android:id="@+id/other"
             android:layout_width="96dp"
             android:layout_height="33dp"
-            android:text="Other"
+            android:text="Khac"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.949"
             app:layout_constraintStart_toStartOf="parent"
